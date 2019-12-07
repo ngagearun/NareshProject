@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationPractice">
+  <test name="regressiontesting">
+  <parameter name="browsername" value="chrome"></parameter>
+  <groups>
+    <run>
+     <include name="regression"></include>    
+    </run> 
+  </groups>
+    <classes>
+      <class name="com.testng.Dresses"/>
+     <class name="com.testng.TShirts"/>
+      <class name="com.testng.Womens"/>
+    </classes>  
+  </test>
+</suite>
