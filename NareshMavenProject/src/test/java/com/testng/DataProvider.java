@@ -29,7 +29,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class DataProvider {
 	WebDriver driver;
-	String browser="firefox";
+	String browser="chrome";
 	
 	
 	

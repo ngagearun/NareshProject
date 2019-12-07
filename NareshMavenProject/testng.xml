@@ -3,16 +3,8 @@
 
 <suite name="AutomationPractice">
   <test name="regressiontesting">
-  <parameter name="browsername" value="chrome"></parameter>
-  <groups>
-    <run>
-     <include name="regression"></include>    
-    </run> 
-  </groups>
     <classes>
-      <class name="com.testng.Dresses"/>
-     <class name="com.testng.TShirts"/>
-      <class name="com.testng.Womens"/>
+      <class name="com.testng.DataProvider"/>
     </classes>  
   </test>
 </suite>
